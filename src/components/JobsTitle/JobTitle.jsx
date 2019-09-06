@@ -1,8 +1,9 @@
 import React from "react";
+import './job-title.css';
 
 const JobTitle = () => {
   return (
-    <div className="job-title">Construction and Releated Workers - General</div>
+    <div className="job-title">Construction and Related Workers - General</div>
   );
 };
 

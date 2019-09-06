@@ -1,0 +1,7 @@
+.company-name {
+	text-align: left;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0px 2px;
+    color: gray;
+}

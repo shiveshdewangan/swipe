@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
+import './working-days.css';
 
 const WorkingDays = () => {
-  return <div>Mon, Fri</div>;
+	return <div className='working-days'>Mon, Fri</div>;
 };
 
 export default WorkingDays;

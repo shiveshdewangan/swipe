@@ -1,0 +1,19 @@
+.jobs-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: last baseline;
+	border: 1px solid #118AB2;
+	background-color: #118AB2;
+	max-width: 100%;
+	margin: auto;
+	padding: 20px 10px;
+	color: white;
+    font-size: 1.2rem;
+}
+
+.jobs-available {
+    padding: 5px 10px;
+    background-color: #4f81c7;
+    margin-left: 5px;
+    border-radius: 5px;
+}
