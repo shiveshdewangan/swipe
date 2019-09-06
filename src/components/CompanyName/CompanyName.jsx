@@ -1,7 +1,7 @@
 import React from "react";
 
 const CompanyName = () => {
-  return <div>Company Name</div>;
+  return <div>C.D. Barnes and Associates</div>;
 };
 
 export default CompanyName;

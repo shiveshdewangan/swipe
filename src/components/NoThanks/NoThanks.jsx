@@ -1,7 +1,7 @@
 import React from "react";
 
-const No = () => {
+const NoThanks = () => {
   return <div>NO THANKS</div>;
 };
 
-export default No;
+export default NoThanks;

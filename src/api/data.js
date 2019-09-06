@@ -54,3 +54,5 @@ export const data = {
   branch: "Tacoma",
   branchPhoneNumber: "253"
 };
+
+export default data;
