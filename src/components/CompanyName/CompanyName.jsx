@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import jobContext from '../../context/JobContext';
 import './company-name.css';
 
 const CompanyName = () => {
-	return <div className='company-name'>C.D. Barnes & Associates</div>;
+	const {
+		company: { name }
+	} = useContext(jobContext);
+	return <div className='company-name'>{name}</div>;
 };
 
 export default CompanyName;

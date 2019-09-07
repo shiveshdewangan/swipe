@@ -1,4 +1,3 @@
-import React from 'react';
-
-const JobContext = React.createContext();
-export default JobContext;
+import { createContext } from 'react';
+import { data } from '../api/data';
+export default createContext(data);

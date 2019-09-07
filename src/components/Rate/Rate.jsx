@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from 'react';
+import jobContext from '../../context/JobContext';
 import './rate.css';
 
 const RatePerHour = () => {
-  return <div className="rate">$8.50/hour</div>;
+	const { wagePerHourInCents } = useContext(jobContext);
+	const wagePerHourInDollars = `$${(wagePerHourInCents / 100.0).toFixed(2)}/hour`;
+	return <div className='rate'>{wagePerHourInDollars}</div>;
 };
 
 export default RatePerHour;

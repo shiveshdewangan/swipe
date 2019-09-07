@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useContext } from 'react';
+import jobContext from '../../context/JobContext';
 import './job-title.css';
 
 const JobTitle = () => {
-  return (
-    <div className="job-title">Construction and Related Workers - General</div>
-  );
+	const { title } = useContext(jobContext);
+	return <div className='job-title'>{title}</div>;
 };
 
 export default JobTitle;
