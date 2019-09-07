@@ -1,0 +1,11 @@
+.work-timings {
+	list-style: none;
+	color: gray;
+	padding: 0px;
+	margin: 2px 5px;
+}
+
+.horizontal-line {
+	width: 90%;
+	margin: 5px 5px;
+}

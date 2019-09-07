@@ -21,21 +21,25 @@ const App = () => {
 			<NavBar />
 			<JobsHeader />
 			<div className='container'>
-				<div className='profile-pic'>
-					<ImageThumbnail />
+				<div className='job-card'>
+					<div className='profile-pic'>
+						<ImageThumbnail />
+					</div>
+					<div className='job-details'>
+						<JobTitle />
+						<CompanyName />
+						<Rate />
+						<WorkingDays />
+					</div>
 				</div>
-				<div className='job-details'>
-					<JobTitle />
-					<CompanyName />
-					<Rate />
-					<WorkingDays />
-				</div>
-				{/* <Agreement />
+				<Agreement />
 				<WorkTimings />
 				<WorkLocation />
 				<CompanyBranch />
-				<TakeIt />
-				<NoThanks /> */}
+				<div className='accept-or-reject'>
+					<TakeIt />
+					<NoThanks />
+				</div>
 			</div>
 		</>
 	);
