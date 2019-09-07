@@ -5,6 +5,11 @@
 	margin: 2px 5px;
 }
 
+.work-timings li {
+	padding: 2px;
+	font-size: 1.2rem;
+}
+
 .horizontal-line {
 	width: 90%;
 	margin: 5px 5px;

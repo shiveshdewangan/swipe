@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import jobContext from '../../context/JobContext';
+import { contractDuration } from '../../utilities/utilities';
 import './working-days.css';
 
 const WorkingDays = () => {
-	return <div className='working-days'>Mon, Fri</div>;
+	const { shifts } = useContext(jobContext);
+	const { contractStartDate, contractEndDate } = contractDuration(shifts);
+	return (
+		<div className='working-days'>
+			{contractStartDate} - {contractEndDate}
+		</div>
+	);
 };
 
 export default WorkingDays;

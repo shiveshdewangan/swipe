@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import jobContext from '../../context/JobContext';
 import './company-branch.css';
 
 const CompanyBranch = () => {
+	const { branch, branchPhoneNumber } = useContext(jobContext);
 	return (
 		<>
 			<p className='company-branch'>
-				Branch: <br /> Tacoma <br /> <span className='contact-number'>(253) 922-4240</span>
+				Branch: <br /> {branch} <br /> <span className='contact-number'>({branchPhoneNumber}) 922-4240</span>
 			</p>
 			<div className='horizontal-line'>
 				<hr />
