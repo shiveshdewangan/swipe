@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swipe/static/css/main.c6629f89.chunk.css",
+    "main.js": "/swipe/static/js/main.ff60dc5c.chunk.js",
+    "main.js.map": "/swipe/static/js/main.ff60dc5c.chunk.js.map",
+    "runtime~main.js": "/swipe/static/js/runtime~main.ebc7d5a8.js",
+    "runtime~main.js.map": "/swipe/static/js/runtime~main.ebc7d5a8.js.map",
+    "static/js/2.04ca56f4.chunk.js": "/swipe/static/js/2.04ca56f4.chunk.js",
+    "static/js/2.04ca56f4.chunk.js.map": "/swipe/static/js/2.04ca56f4.chunk.js.map",
+    "index.html": "/swipe/index.html",
+    "precache-manifest.ae75212928f405d5b7802f3d5b39ac18.js": "/swipe/precache-manifest.ae75212928f405d5b7802f3d5b39ac18.js",
+    "service-worker.js": "/swipe/service-worker.js",
+    "static/css/main.c6629f89.chunk.css.map": "/swipe/static/css/main.c6629f89.chunk.css.map"
+  }
+}
