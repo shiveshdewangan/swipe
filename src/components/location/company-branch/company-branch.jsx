@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import jobContext from '../../../context/JobContext';
+import jobContext from '../../../context/job-context';
 import './company-branch.css';
 
 const CompanyBranch = () => {

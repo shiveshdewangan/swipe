@@ -1,0 +1,7 @@
+.job-thumbnail img {
+	height: 150px;
+	border-radius: 5px;
+	margin: 5px 5px;
+	width: 150px;
+	border: 1px solid whitesmoke;
+}

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import jobContext from '../../context/JobContext';
+import jobContext from '../../context/job-context';
 import { formattedWorkingDays } from '../../utilities/formateDate';
-import './work-timings.css';
+import './shifts.css';
 
 const WorkTimings = () => {
 	const { shifts } = useContext(jobContext);

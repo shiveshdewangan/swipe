@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import './navbar.css';
 import { toggleMenu } from '../../utilities/toggleMenu';
+import './navbar.css';
 
 const NavBar = () => {
 	return (

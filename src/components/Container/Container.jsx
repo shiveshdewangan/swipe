@@ -1,9 +1,9 @@
 import React from 'react';
-import JobDescription from '../JobDescription/JobDescription';
-import Agreement from '../Agreement/Agreement';
-import Shifts from '../Shifts/Shifts';
-import Location from '../Location/Location';
-import JobAcceptance from '../JobAcceptance/JobAcceptance';
+import JobDescription from '../job-description/job-description';
+import Agreement from '../agreement/agreement';
+import Shifts from '../shifts/shifts';
+import Location from '../location/location';
+import JobAcceptance from '../job-acceptance/job-acceptance';
 
 const Container = () => {
 	return (

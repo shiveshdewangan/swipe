@@ -1,4 +1,4 @@
-.jobs-header {
+.header {
 	display: flex;
 	flex-direction: row;
 	border: 1px solid black;
@@ -11,7 +11,7 @@
 	font-size: 1.2rem;
 }
 
-.jobs-available {
+.header span {
 	padding: 0px 10px;
 	background-color: #4f81c7;
 	margin-left: 5px;

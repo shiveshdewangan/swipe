@@ -1,6 +1,6 @@
 import React from 'react';
-import CompanyLocation from './CompanyLocation/CompanyLocation';
-import CompanyBranch from './CompanyBranch/CompanyBranch';
+import CompanyLocation from './company-location/company-location';
+import CompanyBranch from './company-branch/company-branch';
 
 const Location = () => {
 	return (

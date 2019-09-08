@@ -1,9 +1,9 @@
 import React from 'react';
-import ImageThumbnail from './ImageThumbnail/ImageThumbnail';
-import JobTitle from './JobsTitle/JobTitle';
-import CompanyName from './CompanyName/CompanyName';
-import Rate from './Rate/Rate';
-import WorkingDays from './WorkingDays/WorkingDays';
+import ImageThumbnail from './job-thumbnail/job-thumbnail';
+import JobTitle from './job-title/job-title';
+import CompanyName from './company-name/company-name';
+import Rate from './rate/rate';
+import JobDuration from './job-duration/job-duration';
 
 const JobDescription = () => {
 	return (
@@ -15,7 +15,7 @@ const JobDescription = () => {
 					<JobTitle />
 					<CompanyName />
 					<Rate />
-					<WorkingDays />
+					<JobDuration />
 				</div>
 			</div>
 		</>

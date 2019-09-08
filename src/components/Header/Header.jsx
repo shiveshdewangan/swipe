@@ -1,12 +1,12 @@
 import React from 'react';
-import './jobs-header.css';
+import './header.css';
 
-const JobsHeader = () => {
+const Header = () => {
 	return (
-		<div className='jobs-header'>
-			<span className="jobs-available">Jobs Available</span>
+		<div className='header'>
+			<span>Jobs Available</span>
 		</div>
 	);
 };
 
-export default JobsHeader;
+export default Header;

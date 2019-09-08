@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext } from 'react';
-import jobContext from '../../../context/JobContext';
-import './work-location.css';
+import jobContext from '../../../context/job-context';
+import './company-location.css';
 
 const WorkLocation = () => {
 	const {
