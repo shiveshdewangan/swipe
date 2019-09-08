@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import jobContext from '../../context/JobContext';
-import { contractDuration } from '../../utilities/utilities';
+import jobContext from '../../../context/JobContext';
+import { contractDuration } from '../../../utilities/formateDate';
 import './working-days.css';
 
 const WorkingDays = () => {
