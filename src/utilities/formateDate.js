@@ -14,10 +14,10 @@ export const formattedWorkingDays = shifts => {
 };
 
 export const contractDuration = shifts => {
-  const contractStartDate = moment(shifts[0])
+  const contractStartDate = moment(shifts[0].startDate)
     .tz("America/Los_Angeles")
     .format("ddd, MMM D");
-  const contractEndDate = moment(shifts[shifts.length - 1][1])
+  const contractEndDate = moment(shifts[shifts.length - 1].startDate)
     .tz("America/Los_Angeles")
     .format("ddd, MMM D");
   return { contractStartDate, contractEndDate };
